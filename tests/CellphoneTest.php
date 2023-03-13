@@ -4,7 +4,7 @@ namespace YP\Arch\Tests;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use YP\Arch\CellPhone;
+use YP\Arch\Domain\Student\CellPhone;
 
 class CellphoneTest extends TestCase
 {

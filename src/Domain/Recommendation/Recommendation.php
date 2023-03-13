@@ -1,8 +1,9 @@
 <?php
 
-namespace YP\Arch;
+namespace YP\Arch\Domain\Recommendation;
 
 use DateTimeImmutable;
+use YP\Arch\Domain\Student\Student;
 
 class Recommendation
 {

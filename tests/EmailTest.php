@@ -4,7 +4,7 @@ namespace YP\Arch\Tests;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use YP\Arch\Email;
+use YP\Arch\Domain\Student\Email;
 
 class EmailTest extends TestCase
 {

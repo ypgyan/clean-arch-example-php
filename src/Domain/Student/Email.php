@@ -1,6 +1,6 @@
 <?php
 
-namespace YP\Arch;
+namespace YP\Arch\Domain\Student;
 
 use InvalidArgumentException;
 use Stringable;
