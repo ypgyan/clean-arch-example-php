@@ -1,0 +1,18 @@
+{
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4" : {
+      "YP\\Arch\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4" : {
+      "YP\\Arch\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
