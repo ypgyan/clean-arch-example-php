@@ -2,6 +2,8 @@
 
 namespace YP\Arch\Domain\Student;
 
+use YP\Arch\Domain\CPF;
+use YP\Arch\Domain\Email;
 use YP\Arch\Domain\Recommendation\Recommendation;
 
 class Student

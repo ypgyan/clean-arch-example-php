@@ -4,7 +4,7 @@ namespace YP\Arch\Tests;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use YP\Arch\Domain\Student\CPF;
+use YP\Arch\Domain\CPF;
 
 class CPFTest extends TestCase
 {
