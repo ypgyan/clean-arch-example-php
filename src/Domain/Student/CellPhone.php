@@ -40,4 +40,14 @@ class CellPhone implements Stringable
     {
         return "({$this->ddd}) {$this->number}";
     }
+
+    public function number(): string
+    {
+        return $this->number;
+    }
+
+    public function ddd(): string
+    {
+        return $this->ddd;
+    }
 }
