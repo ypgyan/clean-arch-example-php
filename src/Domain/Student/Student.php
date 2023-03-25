@@ -35,9 +35,9 @@ class Student
      */
     public function __construct(string $cpf, string $name, string $email)
     {
-        $this->cpf = $cpf;
+        $this->cpf = new CPF($cpf);
         $this->name = $name;
-        $this->email = $email;
+        $this->email = new Email($email);
     }
 
     /**
@@ -49,5 +49,28 @@ class Student
     {
         $this->phones[] = new CellPhone($ddd, $number);
         return $this;
+    }
+
+    public function cpf(): string
+    {
+        return $this->cpf;
+    }
+
+    public function name(): string
+    {
+        return $this->name();
+    }
+
+    public function email(): string
+    {
+        return $this->email;
+    }
+
+    /**
+     * @return CellPhone[]
+     */
+    public function phones(): array
+    {
+        return $this->phones;
     }
 }
